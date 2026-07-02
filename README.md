@@ -1,0 +1,1 @@
+# Python-trading-project-crypto
