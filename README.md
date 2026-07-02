@@ -193,7 +193,7 @@ Unrealized P&L
 Realized P&L
 Performance Evaluation
 
-The framework computes portfolio-level metrics including:
+# The framework computes portfolio-level metrics including:
 
 Total Return
 Annualized Return
@@ -211,7 +211,7 @@ Forward Testing with Alpaca
 
 Following historical validation, the strategy can be deployed to Alpaca Paper Trading.
 
-The deployment notebook:
+# The deployment notebook:
 
 connects to Alpaca Paper Trading,
 downloads recent crypto market data,
@@ -223,91 +223,31 @@ logs signals and trades.
 
 The project therefore supports both historical research and live paper validation.
 
-Repository Structure
-project/
+# Technologies Used
 
-│
-
-├── notebooks/
-
-│   01_download_binance_data.ipynb
-
-│   02_clean_and_engineer_features.ipynb
-
-│   03_strategy_signals.ipynb
-
-│   04_order_book_and_matching_engine.ipynb
-
-│   05_event_driven_backtester.ipynb
-
-│   06_alpaca_forward_testing.ipynb
-
-│
-
-├── src/
-
-│   config.py
-
-│   binance_data.py
-
-│   features.py
-
-│   strategy.py
-
-│   execution.py
-
-│   backtester.py
-
-│
-
-├── data/
-
-│   raw/
-
-│   clean/
-
-│   features/
-
-│
-
-├── outputs/
-
-│   trades/
-
-│   reports/
-
-│   logs/
-
-│
-
-├── README.md
-
-└── requirements.txt
-Technologies Used
-
-Programming
+## Programming
 
 Python
 
-Data Processing
+## Data Processing
 
 NumPy
 pandas
 PyArrow
 
-Machine Learning & Analytics
+## Machine Learning & Analytics
 
 scikit-learn
 
-Market Data
+## Market Data
 
 Binance REST API
 Alpaca Market Data API
 
-Execution
+## Execution
 
 Alpaca Paper Trading API
 
-Development
+## Development
 
 Jupyter Notebook
