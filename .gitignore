@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env
+data/raw/*.parquet
+data/clean/*.parquet
+data/features/*.parquet
+outputs/trades/*.csv
+outputs/reports/*.csv
+outputs/logs/*.csv
